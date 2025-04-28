@@ -1,4 +1,4 @@
-# C# 
+# C# 🚀
 
 ## OOPS
 - [Encapsulation](#Encapsulation)
@@ -36,15 +36,18 @@ We have different types of Inheritance:
 4. Hybrid inheritance
 5. Multuple inheritance (C# does not support multiple inheitance directly)
 
-# Single Inheritance:
+### Single Inheritance:
  When properties of a parents is inherited into a single child.
 
-# Multilevel Inheritance:
+### Multilevel Inheritance:
  When child class is inheriting from a parent class which is inheriting it's properties of parents class(Grandparents for the child class).
 
-# Hierarchical Inheritance:
+### Hierarchical Inheritance:
  When multiple children class inherits properties from single parent.
 
-# Multiple Inheritance:
+### Multiple Inheritance:
  Multiple inheritance is not supported directly in C#, we can acheive multipl Inheritance by using sealed class and static class.
  Only difference of sealed and static class is that we can create objects of the sealed class and not with the static class.
+
+### Hybrid Inheritance:
+ A combinition of two or more types of [Inheritance](#inheritance). 
