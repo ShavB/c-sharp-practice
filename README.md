@@ -4,6 +4,7 @@
 - [Encapsulation](#Encapsulation)
 - [Abstraction](#Abstraction)
 - [Inheritance](#Inheritance)
+- [Polymorphism](#Polymorphism)
 
 ## Encapsualtion
 Encapsulation is a fundamental part of oop it promotes code modularity and integrity of the data.
@@ -51,3 +52,22 @@ We have different types of Inheritance:
 
 ### Hybrid Inheritance:
  A combinition of two or more types of [Inheritance](#inheritance). 
+
+
+## Polymorphism
+Ploymorphism is a greek word where poly means 'Many' and morphism means 'ways to represent'.
+In OOP polymorphism refers to where methods of the same name can have different output based on the object referenced to it.
+
+Two types polymorphism:
+1. [Compile Time](#Compile Time) (==Method overloading==)
+2. [Run Time](#Run Time) (==Method Overriding==)
+
+### Compile Time
+- Compile time polymorphism is also called as method overloading where we overload the parameters of the methods and based on that we get the output.
+
+- It occures when we have same methods but with different parameters, different numbers of parameters and different return type in a sigle class.
+
+### Run Time
+- Run time polymorphism occurs when we have methods of the same name in different class and one of the class derived from the same class.
+
+- It can be acheived using ==virtual keyword== used along with the methods in the parent class and ==override keyword== used along with the method is the child class.

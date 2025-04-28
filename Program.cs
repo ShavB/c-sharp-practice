@@ -19,14 +19,31 @@
 // abc.Start();
 
 
-using oops.Inheritance;
+// using oops.Inheritance;
 
-Cube cube = new()
-{
-    Height = 10,
-    Width = 10,
-    Length = 10
-};
-cube.GetVolume();
+// Cube cube = new()
+// {
+//     Height = 10,
+//     Width = 10,
+//     Length = 10
+// };
+// cube.GetVolume();
 
-cube.DisplayColor();
+// cube.DisplayColor();
+
+// Polymorphism
+
+using oops.Polymorphism;
+using oops.Polymorphism.RunTimeMethodOverriding;
+
+Calculator calc = new();
+Console.WriteLine( calc.Add(2, 2));
+Console.WriteLine( calc.Add(2, 2, 2));
+Console.WriteLine( calc.Add(2, 2, 2, 2));
+
+Animal cat = new Dog();
+Animal dog = new Cat();
+
+cat.MakeSound();
+dog.MakeSound();
+
