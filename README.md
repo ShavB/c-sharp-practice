@@ -3,7 +3,7 @@
 ## OOPS
 - [Encapsulation](#Encapsulation)
 - [Abstraction](#Abstraction)
-- [Inheitence](#Inheritance)
+- [Inheritance](#Inheritance)
 
 ## Encapsualtion
 Encapsulation is a fundamental part of oop it promotes code modularity and integrity of the data.
