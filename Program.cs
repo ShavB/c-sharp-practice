@@ -33,17 +33,24 @@
 
 // Polymorphism
 
-using oops.Polymorphism;
-using oops.Polymorphism.RunTimeMethodOverriding;
+// using oops.Polymorphism;
+// using oops.Polymorphism.RunTimeMethodOverriding;
 
-Calculator calc = new();
-Console.WriteLine( calc.Add(2, 2));
-Console.WriteLine( calc.Add(2, 2, 2));
-Console.WriteLine( calc.Add(2, 2, 2, 2));
+// Calculator calc = new();
+// Console.WriteLine( calc.Add(2, 2));
+// Console.WriteLine( calc.Add(2, 2, 2));
+// Console.WriteLine( calc.Add(2, 2, 2, 2));
 
-Animal cat = new Dog();
-Animal dog = new Cat();
+// Animal cat = new Dog();
+// Animal dog = new Cat();
 
+// cat.MakeSound();
+// dog.MakeSound();
+
+
+using oops.practice;
+
+Animal cat = new Cat();
+Animal dog = new Dog();
 cat.MakeSound();
 dog.MakeSound();
-
